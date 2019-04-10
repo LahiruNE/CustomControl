@@ -1,0 +1,5 @@
+<select [name]="name" [(ngModel)]="value">
+  <option *ngFor="let state of stateList" [value]="state"> 
+    {{state.name}}
+  </option>
+</select>
